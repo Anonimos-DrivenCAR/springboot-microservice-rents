@@ -16,7 +16,7 @@ public class RentItem {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String code;
+    private String coder;
     private BigDecimal price;
     private Integer orderQty;
 }
